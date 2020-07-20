@@ -1,0 +1,12 @@
+- title: GitHub Desktop
+  description: Improving documentation for GitHub Desktop
+  url: http://docs.github.com/en/desktop
+  show: true
+  external: true
+  id: desktop
+- title: PAT Track
+  description: Prototype microcopy for transit app
+  url: http://docs.github.com/en/desktop
+  show: true
+  external: false
+  id: pat

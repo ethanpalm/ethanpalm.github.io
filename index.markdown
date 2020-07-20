@@ -1,0 +1,33 @@
+---
+title: Ethan Palm | Writer
+name: home
+layout: home
+---
+
+<div class="bg"></div>
+<main class="site-container">
+  <div class="home">
+    <div class="about column">
+      <div>
+        <h1>Ethan Palm</h1><br>Technical writer. Content designer. Author. I'm not set on a specific title. I love words and spend my time putting them together in ways that are useful, entertaining, and sometimes both.
+      </div>
+      <div> I'm currently finishing my master's in Professional Writing at <a href="https://cmu.edu/dietrich/english/academic-programs/ma-pw/index.html">CMU</a> and will graduate in December 2020<span class="accent superscript" id="asterisk" onmouseover="addClass(asterisk2, 'footnote-accent');" onmouseout="removeClass(asterisk2, 'footnote-accent');">*</span>. I've focused my graduate studies on technical writing, UX research methodology, and content design. I'm seeking a job where I can create content and content systems that address user needs.</div>
+      <div>Before graduate school, I held a variety of writing roles where I produced content ranging from UX microcopy and HTML emails to magazine advertorials and press releases. I also did a year of <a href="https://www.nationalservice.gov/programs/americorps/americorps-programs/americorps-vista">AmeriCorps</a> service and moved back and forth across the United States a few times. And I had a pleasant four years at <a href="https://anthropology.ucdavis.edu/">UC</a>&nbsp;<a href="https://writing.ucdavis.edu/academics/writing-minor">Davis</a> for undergrad<span class="accent superscript" id="paragraph" onmouseover="addClass(paragraph2, 'footnote-accent');" onmouseout="removeClass(paragraph2, 'footnote-accent');">¶</span>.</div>
+      <div>I grew up in the ‘burbs of New York<span class="accent superscript" id="doubledagger" onmouseover="addClass(doubledagger2, 'footnote-accent');" onmouseout="removeClass(doubledagger2, 'footnote-accent');">‡</span>, make a lot of self deprecating jokes<span class="accent superscript" id="section" onmouseover="addClass(section2, 'footnote-accent');" onmouseout="removeClass(section2, 'footnote-accent');">§</span>, and I'm notorious for being average at a thousand hobbies—most recently <strike>guitar</strike> piano, <strike>mini</strike> Monday crossword puzzles, <strike>embroidery</strike> knitting, and hand&nbsp;lettering.<span class="accent superscript" id="paragraph" onmouseover="addClass(paragraph2, 'footnote-accent');" onmouseout="removeClass(paragraph2, 'footnote-accent');">¶</span></div>
+    </div>
+    <div class="work column">
+      <h2>Things I write</h2>
+      {% for item in site.data.portfolio %}
+        {% if item.show %}
+        <a class="project" id="{{ item.id }}" onmouseover="addClass(body, '{{ item.id }}');" onmouseout="removeClass(body, '{{ item.id }}');" href="{{ item.url }}">
+          <b>{{ item.title }}</b>—{{ item.description }}{% if item.external%}<span class="accent external-link">&#8599;&#xFE0E;</span>{% endif %}
+        </a>
+        {% endif %}
+      {% endfor %}
+      <div class="notes grid">
+        <span class="accent">*</span><p class="note" id="asterisk2"><span>I'd be happy to talk now about potential job opportunities down the road. Catch me on <a href="http://linkedin.com/ethanpalm">LinkedIn</a> or <a href="mailto:ethanpalm@gmail.com">email me</a></span></p>
+        <span class="accent">¶</span><p class="note" id="paragraph2"><span>If you'd like all the details, here is my <a href="/ethan-palm-resume-2020.pdf">resume</a>.</span></p>
+      </div>
+    </div>
+  </div>
+</main>
