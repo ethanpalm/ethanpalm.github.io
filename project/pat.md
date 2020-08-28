@@ -1,5 +1,5 @@
 ---
-title: Ethan Palm | PAT Track Prototype
+title: Ethan Palm | PAT Track prototype
 tag: PAT
 type: project
 layout: project
