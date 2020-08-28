@@ -142,10 +142,97 @@
     }
   }
   
-  // HOVER STYLES will go here
+  // HOVER STYLES
   
-  // $mauve: #C6A1C7;
-  // $new-gray: #252021;
-  // $green: #40AB85;
+$purple: #C6A1C7;
+$green: #40AB85;
   
+body.desktop {
+  $foreground: $black;
+  $accent: yellow;
+
+  background: $purple;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+}
+
+body.PAT {
+  $foreground: $black;
+  $accent: yellow;
+
+  background: $purple;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+}
+
+body.creative {
+  $foreground: $black;
+  $accent: green;
+
+  background: $purple;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+}
+
+body.ethanpalms {
+  $foreground: $black;
+  $accent: green;
+
+  background: $purple;
+  color: $foreground;
+
+  a {
+    color: $foreground;
+  }
+
+  .project {
+    &:hover:after {
+      border: 1px solid $foreground;
+    }
+  }
+
+  .accent {
+    color: $accent;
+  }
+}
+
   }
