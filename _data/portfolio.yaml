@@ -1,12 +1,24 @@
 - title: GitHub Desktop
   description: Improving documentation for GitHub Desktop
-  url: http://docs.github.com/en/desktop
-  show: true
-  external: true
-  id: desktop
-- title: PAT Track
-  description: Prototype microcopy for transit app
-  url: http://docs.github.com/en/desktop
+  url: /project/dekstop
   show: true
   external: false
-  id: pat
+  id: desktop
+- title: PAT Track
+  description: Prototyping microcopy for a transit app
+  url: /project/pat
+  show: true
+  external: false
+  id: PAT
+- title: Creative Writing
+  description: Enjoying words
+  url: /project/creative
+  show: true
+  external: false
+  id: creative
+- title: Other Ethan Palms
+  description: Looking for someone else with the same name?
+  url: /project/ethanpalms
+  show: true
+  external: false
+  id: ethanpalms
