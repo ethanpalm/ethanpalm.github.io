@@ -1,1 +1,1 @@
-This is the repo for my personal website. Thank you for visiting.
+This is the repo for my personal website.
