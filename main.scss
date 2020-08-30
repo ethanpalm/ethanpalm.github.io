@@ -116,12 +116,6 @@ a {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  background: $foreground;
-  color: $background;
-}
-}
-
 p::selection,
 h6::selection,
 h5::selection,
