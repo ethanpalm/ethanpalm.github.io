@@ -1,12 +1,9 @@
 ---
 title: Ethan Palm | GitHub Desktop documentation
-tag: desktop
+tag: GitHub Desktop
 type: project
 layout: project
 ---
-
-{:.full}
-![GitHub Desktop](/images/desktop1.png)
 
 # Background
 I spent summer 2020 as an intern at [GitHub](https://www.github.com) on their product documentation team. I served as the lead writer on the content improvement plan for documentation for [GitHub Desktop](https://desktop.github.com/), a GUI software application for completing the Git workflow and connecting to GitHub.

@@ -1,6 +1,6 @@
 ---
 title: Ethan Palm | Creative writing
-tag: creative
+tag: Creative Writing
 type: project
 layout: project
 ---

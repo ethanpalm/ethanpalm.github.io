@@ -1,6 +1,6 @@
 ---
 title: Ethan Palm | Other Ethan Palms
-tag: ethanpalms
+tag: Other Ethan Palms
 type: project
 layout: project
 ---

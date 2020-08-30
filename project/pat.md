@@ -1,13 +1,9 @@
 ---
 title: Ethan Palm | PAT Track prototype
-tag: PAT
+tag: PAT Track
 type: project
 layout: project
 ---
-
-
-{:.full}
-![](/images/PAT1.png)
 
 # Background
 I wrote prototype microcopy to guide users through the [PAT Track app](https://play.google.com/store/apps/details?id=rectangledbmi.com.pittsburghrealtimetracker&hl=en_US), one of the most downloaded Pittsburgh transit apps for Android devices, for my Professional Writing course at Carnegie Mellon University.
@@ -19,10 +15,7 @@ The full prototype can be viewed on [Figma](https://www.figma.com/proto/c8fv8JfI
 I am not affiliated with PAT Track nor its development team.
 
 {:.half}
-![Type specimen](/images/PAT3.png)
+![Quickstart card prototype](/images/PAT3.png)
 
 {:.half .right}
-![Type specimen](/images/PAT4.png)
-
-{:.full}
-![Type specimen](/images/PAT5.png)
+![FAQ prototype](/images/PAT5.png)
