@@ -47,21 +47,7 @@
   .accent {
     color: $red;
     transition: $timing;
-    cursor: pointer;
-  }
-  
-  .note span  {
-    transition: 0.15s ease box-shadow;
-    box-shadow: inset 0px 0px 0px 0px lighten($green, 30%);
-  }
-  
-  .footnote-accent span {
-    box-shadow: inset 0px -25px 0px 0px lighten($green, 30%);
-    transition: 0.15s ease box-shadow;
-  }
-  
-  .footnote-accent a {
-    transition: 0.15s ease box-shadow;
+    cursor: vertical-text;
   }
   
   .external-link {
@@ -113,7 +99,7 @@
     grid-row-gap: 8px;
     align-items: start;
   }
-  
+
   // Projects
   
   a.project {
@@ -148,91 +134,9 @@
   
 $purple: #C6A1C7;
 $green: #40AB85;
-  
-body.desktop {
-  $foreground: $black;
-  $accent: yellow;
 
-  background: $purple;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $foreground;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
-}
-
-body.PAT {
-  $foreground: $black;
-  $accent: yellow;
-
-  background: $purple;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $foreground;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
-}
-
-body.creative {
-  $foreground: $black;
-  $accent: green;
-
-  background: $purple;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $foreground;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
-}
-
-body.ethanpalms {
-  $foreground: $black;
-  $accent: green;
-
-  background: $purple;
-  color: $foreground;
-
-  a {
-    color: $foreground;
-  }
-
-  .project {
-    &:hover:after {
-      border: 1px solid $foreground;
-    }
-  }
-
-  .accent {
-    color: $accent;
-  }
+.project:hover {
+  cursor:pointer;
+  padding: 10px;
+  box-shadow: inset 0 0 0 2px $red;
 }
