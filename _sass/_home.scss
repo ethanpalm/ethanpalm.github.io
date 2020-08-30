@@ -47,6 +47,7 @@
   .accent {
     color: $red;
     transition: $timing;
+    cursor: cell;
   }
   
   .note span  {
@@ -62,7 +63,6 @@
   .footnote-accent a {
     transition: 0.15s ease box-shadow;
   }
-  
   
   .external-link {
     font-size: $f2;
