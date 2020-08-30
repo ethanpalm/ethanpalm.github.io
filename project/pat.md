@@ -13,9 +13,3 @@ I conducted an initial user test with the PAT Track app to find pain points and 
 The full prototype can be viewed on [Figma](https://www.figma.com/proto/c8fv8JfIgbFHk5MamkGBDE/PAT-Tracker-redesign?node-id=25%3A63&scaling=scale-down).
 
 I am not affiliated with PAT Track nor its development team.
-
-{:.half}
-![Quickstart card prototype](/images/PAT3.png)
-
-{:.half .right}
-![FAQ prototype](/images/PAT5.png)
