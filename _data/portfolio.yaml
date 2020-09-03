@@ -11,9 +11,15 @@
   show: true
   external: false
   id: PAT
-  site: https://www.figma.com/proto/c8fv8JfIgbFHk5MamkGBDE/PAT-Tracker-redesign?node-id=25%3A63&scaling=scale-down
+  site: https://www.figma.com/proto/c8fv8JfIgbFHk5MamkGBDE/PAT-Track-prototype?node-id=25%3A16&scaling=scale-down
+- title: Corporate Communications
+  description: Shaping stories and getting attention
+  url: /project/comms
+  show: true
+  external: false
+  id: comms
 - title: Creative Writing
-  description: Fun words
+  description: Enjoying words
   url: /project/creative
   show: true
   external: false
