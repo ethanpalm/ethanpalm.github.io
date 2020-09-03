@@ -15,7 +15,7 @@
 - title: Corporate Communications
   description: Shaping stories and getting attention
   url: /project/comms
-  show: true
+  show: false
   external: false
   id: comms
 - title: Creative Writing
