@@ -5,7 +5,7 @@ type: project
 layout: project
 ---
 
-# Maybe we're special
+# I'm biased, but it's a good name
 There are some other cool Ethan Palms out there. I don't know what it is about the name, but it seems to result in filmmakers.
 
 If you are trying to find Ethan Palm, the editor and filmmaker in Nashville, this is [his website](http://ethanpalm.net/).
